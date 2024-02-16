@@ -68,9 +68,7 @@ describe('parseRepoUrl', () => {
     expect(repoInfo).toBeNull();
   });
   it('should parse url with `.com` in the repo name', () => {
-    const repoInfo = parseRepoUrl(
-      'https://github.com/khulnasoft-lab/devship.com.git'
-    );
+    const repoInfo = parseRepoUrl('https://github.com/vercel/vercel.com.git');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
@@ -91,34 +89,28 @@ describe('parseRepoUrl', () => {
     expect(repoInfo?.repo).toEqual('next.js');
   });
   it('should parse github https url', () => {
-    const repoInfo = parseRepoUrl(
-      'https://github.com/khulnasoft-lab/devship.git'
-    );
+    const repoInfo = parseRepoUrl('https://github.com/vercel/vercel.git');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
     expect(repoInfo?.repo).toEqual('vercel');
   });
   it('should parse github https url without the .git suffix', () => {
-    const repoInfo = parseRepoUrl('https://github.com/khulnasoft-lab/devship');
+    const repoInfo = parseRepoUrl('https://github.com/vercel/vercel');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
     expect(repoInfo?.repo).toEqual('vercel');
   });
   it('should parse github git url', () => {
-    const repoInfo = parseRepoUrl(
-      'git://github.com/khulnasoft-lab/devship.git'
-    );
+    const repoInfo = parseRepoUrl('git://github.com/vercel/vercel.git');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
     expect(repoInfo?.repo).toEqual('vercel');
   });
   it('should parse github git url with trailing slash', () => {
-    const repoInfo = parseRepoUrl(
-      'git://github.com/khulnasoft-lab/devship.git/'
-    );
+    const repoInfo = parseRepoUrl('git://github.com/vercel/vercel.git/');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
