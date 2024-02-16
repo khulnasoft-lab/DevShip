@@ -11,14 +11,14 @@
 
 ### Variables
 
-- [CITY\_HEADER\_NAME](README.md#city_header_name)
-- [COUNTRY\_HEADER\_NAME](README.md#country_header_name)
-- [EMOJI\_FLAG\_UNICODE\_STARTING\_POSITION](README.md#emoji_flag_unicode_starting_position)
-- [IP\_HEADER\_NAME](README.md#ip_header_name)
-- [LATITUDE\_HEADER\_NAME](README.md#latitude_header_name)
-- [LONGITUDE\_HEADER\_NAME](README.md#longitude_header_name)
-- [REGION\_HEADER\_NAME](README.md#region_header_name)
-- [REQUEST\_ID\_HEADER\_NAME](README.md#request_id_header_name)
+- [CITY_HEADER_NAME](README.md#city_header_name)
+- [COUNTRY_HEADER_NAME](README.md#country_header_name)
+- [EMOJI_FLAG_UNICODE_STARTING_POSITION](README.md#emoji_flag_unicode_starting_position)
+- [IP_HEADER_NAME](README.md#ip_header_name)
+- [LATITUDE_HEADER_NAME](README.md#latitude_header_name)
+- [LONGITUDE_HEADER_NAME](README.md#longitude_header_name)
+- [REGION_HEADER_NAME](README.md#region_header_name)
+- [REQUEST_ID_HEADER_NAME](README.md#request_id_header_name)
 
 ### Functions
 
@@ -30,81 +30,81 @@
 
 ## Variables
 
-### CITY\_HEADER\_NAME
+### CITY_HEADER_NAME
 
-• `Const` **CITY\_HEADER\_NAME**: ``"x-vercel-ip-city"``
+• `Const` **CITY_HEADER_NAME**: `"x-vercel-ip-city"`
 
 City of the original client IP as calculated by Vercel Proxy.
 
 #### Defined in
 
-[packages/edge/src/edge-headers.ts:4](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/edge-headers.ts#L4)
+[packages/edge/src/edge-headers.ts:4](https://github.com/vercel/vercel/blob/main/packages/edge/src/edge-headers.ts#L4)
 
-___
+---
 
-### COUNTRY\_HEADER\_NAME
+### COUNTRY_HEADER_NAME
 
-• `Const` **COUNTRY\_HEADER\_NAME**: ``"x-vercel-ip-country"``
+• `Const` **COUNTRY_HEADER_NAME**: `"x-vercel-ip-country"`
 
 Country of the original client IP as calculated by Vercel Proxy.
 
 #### Defined in
 
-[packages/edge/src/edge-headers.ts:8](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/edge-headers.ts#L8)
+[packages/edge/src/edge-headers.ts:8](https://github.com/vercel/vercel/blob/main/packages/edge/src/edge-headers.ts#L8)
 
-___
+---
 
-### EMOJI\_FLAG\_UNICODE\_STARTING\_POSITION
+### EMOJI_FLAG_UNICODE_STARTING_POSITION
 
-• `Const` **EMOJI\_FLAG\_UNICODE\_STARTING\_POSITION**: ``127397``
+• `Const` **EMOJI_FLAG_UNICODE_STARTING_POSITION**: `127397`
 
 Unicode characters for emoji flags start at this number, and run up to 127469.
 
 #### Defined in
 
-[packages/edge/src/edge-headers.ts:34](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/edge-headers.ts#L34)
+[packages/edge/src/edge-headers.ts:34](https://github.com/vercel/vercel/blob/main/packages/edge/src/edge-headers.ts#L34)
 
-___
+---
 
-### IP\_HEADER\_NAME
+### IP_HEADER_NAME
 
-• `Const` **IP\_HEADER\_NAME**: ``"x-real-ip"``
+• `Const` **IP_HEADER_NAME**: `"x-real-ip"`
 
 Client IP as calculated by Vercel Proxy.
 
 #### Defined in
 
-[packages/edge/src/edge-headers.ts:12](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/edge-headers.ts#L12)
+[packages/edge/src/edge-headers.ts:12](https://github.com/vercel/vercel/blob/main/packages/edge/src/edge-headers.ts#L12)
 
-___
+---
 
-### LATITUDE\_HEADER\_NAME
+### LATITUDE_HEADER_NAME
 
-• `Const` **LATITUDE\_HEADER\_NAME**: ``"x-vercel-ip-latitude"``
+• `Const` **LATITUDE_HEADER_NAME**: `"x-vercel-ip-latitude"`
 
 Latitude of the original client IP as calculated by Vercel Proxy.
 
 #### Defined in
 
-[packages/edge/src/edge-headers.ts:16](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/edge-headers.ts#L16)
+[packages/edge/src/edge-headers.ts:16](https://github.com/vercel/vercel/blob/main/packages/edge/src/edge-headers.ts#L16)
 
-___
+---
 
-### LONGITUDE\_HEADER\_NAME
+### LONGITUDE_HEADER_NAME
 
-• `Const` **LONGITUDE\_HEADER\_NAME**: ``"x-vercel-ip-longitude"``
+• `Const` **LONGITUDE_HEADER_NAME**: `"x-vercel-ip-longitude"`
 
 Longitude of the original client IP as calculated by Vercel Proxy.
 
 #### Defined in
 
-[packages/edge/src/edge-headers.ts:20](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/edge-headers.ts#L20)
+[packages/edge/src/edge-headers.ts:20](https://github.com/vercel/vercel/blob/main/packages/edge/src/edge-headers.ts#L20)
 
-___
+---
 
-### REGION\_HEADER\_NAME
+### REGION_HEADER_NAME
 
-• `Const` **REGION\_HEADER\_NAME**: ``"x-vercel-ip-country-region"``
+• `Const` **REGION_HEADER_NAME**: `"x-vercel-ip-country-region"`
 
 Country region of the original client IP calculated by Vercel Proxy.
 
@@ -112,19 +112,19 @@ See [docs](https://vercel.com/docs/concepts/edge-network/headers#x-vercel-ip-cou
 
 #### Defined in
 
-[packages/edge/src/edge-headers.ts:26](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/edge-headers.ts#L26)
+[packages/edge/src/edge-headers.ts:26](https://github.com/vercel/vercel/blob/main/packages/edge/src/edge-headers.ts#L26)
 
-___
+---
 
-### REQUEST\_ID\_HEADER\_NAME
+### REQUEST_ID_HEADER_NAME
 
-• `Const` **REQUEST\_ID\_HEADER\_NAME**: ``"x-vercel-id"``
+• `Const` **REQUEST_ID_HEADER_NAME**: `"x-vercel-id"`
 
 The request ID for each request generated by Vercel Proxy.
 
 #### Defined in
 
-[packages/edge/src/edge-headers.ts:30](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/edge-headers.ts#L30)
+[packages/edge/src/edge-headers.ts:30](https://github.com/vercel/vercel/blob/main/packages/edge/src/edge-headers.ts#L30)
 
 ## Functions
 
@@ -136,16 +136,16 @@ Returns the location information for the incoming request.
 
 **`See`**
 
- - [CITY_HEADER_NAME](README.md#city_header_name)
- - [COUNTRY_HEADER_NAME](README.md#country_header_name)
- - [REGION_HEADER_NAME](README.md#region_header_name)
- - [LATITUDE_HEADER_NAME](README.md#latitude_header_name)
- - [LONGITUDE_HEADER_NAME](README.md#longitude_header_name)
+- [CITY_HEADER_NAME](README.md#city_header_name)
+- [COUNTRY_HEADER_NAME](README.md#country_header_name)
+- [REGION_HEADER_NAME](README.md#region_header_name)
+- [LATITUDE_HEADER_NAME](README.md#latitude_header_name)
+- [LONGITUDE_HEADER_NAME](README.md#longitude_header_name)
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
+| Name      | Type      | Description                                                     |
+| :-------- | :-------- | :-------------------------------------------------------------- |
 | `request` | `Request` | The incoming request object which provides the geolocation data |
 
 #### Returns
@@ -154,9 +154,9 @@ Returns the location information for the incoming request.
 
 #### Defined in
 
-[packages/edge/src/edge-headers.ts:128](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/edge-headers.ts#L128)
+[packages/edge/src/edge-headers.ts:128](https://github.com/vercel/vercel/blob/main/packages/edge/src/edge-headers.ts#L128)
 
-___
+---
 
 ### ipAddress
 
@@ -170,8 +170,8 @@ Returns the IP address of the request from the headers.
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
+| Name      | Type      | Description                                       |
+| :-------- | :-------- | :------------------------------------------------ |
 | `request` | `Request` | The incoming request object which provides the IP |
 
 #### Returns
@@ -180,15 +180,16 @@ Returns the IP address of the request from the headers.
 
 #### Defined in
 
-[packages/edge/src/edge-headers.ts:99](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/edge-headers.ts#L99)
+[packages/edge/src/edge-headers.ts:99](https://github.com/vercel/vercel/blob/main/packages/edge/src/edge-headers.ts#L99)
 
-___
+---
 
 ### json
 
-▸ **json**(`data`, `init?`): [`Response`]( https://developer.mozilla.org/en-US/docs/Web/API/Response )
+▸ **json**(`data`, `init?`): [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response)
 
 Builds a response object from a serializable JavaScript object:
+
 - sets the 'Content-Type' response header to 'application/json'
 - sets the response body from provided data
 
@@ -203,29 +204,32 @@ Builds a response object from a serializable JavaScript object:
 ```ts
 import { json } from '@vercel/edge';
 
-const response = json({ notification: { success: true, content: 'worked' } }, { headers: {'x-custom': '1' }})
+const response = json(
+  { notification: { success: true, content: 'worked' } },
+  { headers: { 'x-custom': '1' } }
+);
 ```
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `data` | `any` | serialized data |
+| Name    | Type           | Description                                             |
+| :------ | :------------- | :------------------------------------------------------ |
+| `data`  | `any`          | serialized data                                         |
 | `init?` | `ResponseInit` | optional custom response status, statusText and headers |
 
 #### Returns
 
-[`Response`]( https://developer.mozilla.org/en-US/docs/Web/API/Response )
+[`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response)
 
 #### Defined in
 
-[packages/edge/src/response.ts:19](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/response.ts#L19)
+[packages/edge/src/response.ts:19](https://github.com/vercel/vercel/blob/main/packages/edge/src/response.ts#L19)
 
-___
+---
 
 ### next
 
-▸ **next**(`init?`): [`Response`]( https://developer.mozilla.org/en-US/docs/Web/API/Response )
+▸ **next**(`init?`): [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response)
 
 Returns a Response that instructs the system to continue processing the request.
 
@@ -251,29 +255,29 @@ import { next } from '@vercel/edge';
 export default function middleware(_req: Request) {
   return next({
     headers: { 'x-from-middleware': 'true' },
-  })
+  });
 }
 ```
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
+| Name    | Type                                                   | Description                         |
+| :------ | :----------------------------------------------------- | :---------------------------------- |
 | `init?` | [`ExtraResponseInit`](interfaces/ExtraResponseInit.md) | Additional options for the response |
 
 #### Returns
 
-[`Response`]( https://developer.mozilla.org/en-US/docs/Web/API/Response )
+[`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response)
 
 #### Defined in
 
-[packages/edge/src/middleware-helpers.ts:145](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/middleware-helpers.ts#L145)
+[packages/edge/src/middleware-helpers.ts:145](https://github.com/vercel/vercel/blob/main/packages/edge/src/middleware-helpers.ts#L145)
 
-___
+---
 
 ### rewrite
 
-▸ **rewrite**(`destination`, `init?`): [`Response`]( https://developer.mozilla.org/en-US/docs/Web/API/Response )
+▸ **rewrite**(`destination`, `init?`): [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response)
 
 Returns a response that rewrites the request to a different URL.
 
@@ -318,15 +322,15 @@ export const config = { matcher: '/api/users/:path*' };
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `destination` | `string` \| [`URL`]( https://developer.mozilla.org/en-US/docs/Web/API/URL ) | new URL to rewrite the request to |
-| `init?` | [`ExtraResponseInit`](interfaces/ExtraResponseInit.md) | Additional options for the response |
+| Name          | Type                                                                      | Description                         |
+| :------------ | :------------------------------------------------------------------------ | :---------------------------------- |
+| `destination` | `string` \| [`URL`](https://developer.mozilla.org/en-US/docs/Web/API/URL) | new URL to rewrite the request to   |
+| `init?`       | [`ExtraResponseInit`](interfaces/ExtraResponseInit.md)                    | Additional options for the response |
 
 #### Returns
 
-[`Response`]( https://developer.mozilla.org/en-US/docs/Web/API/Response )
+[`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response)
 
 #### Defined in
 
-[packages/edge/src/middleware-helpers.ts:101](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/middleware-helpers.ts#L101)
+[packages/edge/src/middleware-helpers.ts:101](https://github.com/vercel/vercel/blob/main/packages/edge/src/middleware-helpers.ts#L101)

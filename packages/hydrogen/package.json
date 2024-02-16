@@ -6,7 +6,7 @@
   "homepage": "https://vercel.com/docs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/khulnasoft/devship.git",
+    "url": "https://github.com/vercel/vercel.git",
     "directory": "packages/hydrogen"
   },
   "scripts": {

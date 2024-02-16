@@ -42,7 +42,7 @@ export function getWebExportsHandler(listener: any, methods: string[]) {
 
 /**
  * Add `duplex: 'half'` by default to all requests
- * https://github.com/khulnasoft/edge-runtime/blob/bf167c418247a79d3941bfce4a5d43c37f512502/packages/primitives/src/primitives/fetch.js#L22-L26
+ * https://github.com/vercel/edge-runtime/blob/bf167c418247a79d3941bfce4a5d43c37f512502/packages/primitives/src/primitives/fetch.js#L22-L26
  * https://developer.chrome.com/articles/fetch-streaming-requests/#streaming-request-bodies
  */
 function addDuplexToInit(init: RequestInit | undefined) {
